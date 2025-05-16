@@ -3,6 +3,7 @@ name = "no-cli"
 description = "Say no with some pzazz."
 authors = ["Hugo Saracino <hugo.saracino@gmail.com>"]
 version = "0.3.0"
+repository = "https://github.com/Punie/no"
 readme = "README.md"
 license = "MIT"
 edition = "2024"
@@ -15,6 +16,11 @@ path = "src/main.rs"
 strip = "symbols"
 lto = true
 codegen-units = 1
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
 
 [dependencies]
 clap = { version = "4.5.38", features = ["derive"] }
