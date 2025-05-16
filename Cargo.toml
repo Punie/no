@@ -1,0 +1,11 @@
+[package]
+name = "no-cli"
+description = "A simple CLI to generate random and creative ways to say no."
+authors = ["Hugo Saracino <hugo.saracino@gmail.com>"]
+version = "0.1.0"
+readme = "README.md"
+license = "MIT"
+edition = "2024"
+
+[dependencies]
+rand = "0.9.1"
