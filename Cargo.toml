@@ -2,10 +2,14 @@
 name = "no-cli"
 description = "A simple CLI to generate random and creative ways to say no."
 authors = ["Hugo Saracino <hugo.saracino@gmail.com>"]
-version = "0.1.0"
+version = "0.2.0"
 readme = "README.md"
 license = "MIT"
 edition = "2024"
+
+[[bin]]
+name = "no"
+path = "src/main.rs"
 
 [dependencies]
 rand = "0.9.1"
