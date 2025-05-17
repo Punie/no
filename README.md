@@ -6,9 +6,7 @@ This CLI is for you! It will print random and creative ways to say no for your h
 
 ## Installation
 
-```sh
-cargo install no-cli
-```
+See the [releases page](https://github.com/Punie/no/releases) for installation instructions.
 
 ## Usage
 
